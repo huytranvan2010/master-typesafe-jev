@@ -1,0 +1,14 @@
+# Which department should handle a customer ticket?
+# The description is what Jev reads: describe what the team is responsible for.
+
+departments:
+  order_management: Placing a new order, changing items or quantities in an existing order, cancelling an order before it ships, or checking the status of an order.
+  shipping_delivery: Delivery options, delivery times and regions, changing the shipping address, and packages that are late, lost, or delivered to the wrong place.
+  billing_payment: Payment methods, failed or declined payments, checkout errors, duplicate or unexpected charges, and requests for invoices or receipts.
+  returns_refunds: Returning or exchanging a received item, requesting a refund, refund policy, and the status of a refund that was already requested.
+  account_membership: Login problems, passwords, creating or deleting an account, profile changes, membership or subscription plans, newsletters, and cancellation fees.
+  feedback_complaint: General feedback, reviews, praise, or complaints about service quality that do not ask for a specific action.
+  other: Anything unrelated to this store's orders, payments, deliveries, returns or accounts, such as spam or off-topic questions.
+
+# Below this probability the ticket goes to a human instead of a department.
+min_probability: 0.85
